@@ -1,0 +1,44 @@
+1.What is maven?
+    Maven is a powerful project management tool that is based on POM (project object model). 
+    It is used for projects build, dependency and documentation.
+
+2.When to use maven?
+   Maven is  used for Java-based projects, helping to download dependencies, which refers to the libraries or JAR files.
+   The tool helps get the right JAR files for each project as there may be different versions of separate packages.
+
+3.Define the problems without maven?
+      without maven build process is hard , and also it will not allow transparent migration on new features. 
+     it will not provide uniform build system.
+
+4.Characterstics of maven?
+   > Simple project setup that follows best practices.
+   > Consistent usage across all projects.
+   > Dependency management including automatic updating.
+   > Instant access to new features with little or no extra configuration.
+
+5.What is project management?
+     Managing the source code testing the application and deploying the application and maintaining the application 
+     all this process is called project management.
+ 
+6. What is war files?
+       The Maven WAR plugin is responsible for collecting and compiling all the dependencies,
+        classes, and resources of the web application into a web application archive.
+
+7. What is POM?
+      Project Object Model(POM) Files are XML file that contains information related to the project and configuration information .
+      Maven reads pom.xml file to accomplish its configuration and operations.
+
+8.Default project structure of maven?
+   Maven project structure defines a folder in order to store all resources and files needed by a web application.
+
+9.What is the target folder?
+     It is the maven default output folder
+
+10. Command to generate default java project in interactive mode?
+       mvn archetype:generate
+
+11. How to install maven?
+Step 1: Download Maven Zip File and Extract. Visit the Maven download page and download the version of Maven you want to install. ...
+Step 2: Add MAVEN_HOME System Variable. ...
+Step 3: Add MAVEN_HOME Directory in PATH Variable. ...
+Step 4: Verify Maven Installation.  
